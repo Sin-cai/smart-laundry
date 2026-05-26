@@ -14,17 +14,16 @@ class LaundryService {
         $this->pricePerKg = $pricePerKg;
     }
 
-    // Getter service name
     public function getServiceName() {
         return $this->serviceName;
     }
 
-    // Getter price
+
     public function getPricePerKg() {
         return $this->pricePerKg;
     }
 
-    // Getter estimasi
+    
     public function getEstimatedHours() {
         return $this->estimatedHours;
     }
